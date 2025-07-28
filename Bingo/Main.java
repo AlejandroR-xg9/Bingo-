@@ -42,8 +42,6 @@ public static void main(String[] args) {
         }
 //BINGO
     while(Maccion == 2){
-
-        primero.TotalPares();//Contar cuantos pares hay
         System.out.println("Tiradas restantes: " + primero.getTiradas());
         System.out.println("B I N G O");
             if (primero.getTiradas() > 0){
